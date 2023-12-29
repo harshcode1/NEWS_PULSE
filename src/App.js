@@ -11,7 +11,7 @@ import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
-  ApiKey ="12a1f048cddf4956b90c5446edc04519"
+  ApiKey ="12a1f048cddf4956b90c5446edc04519" // Here wanted to use .env file but was not working Don't know why
   c = 'Harsh Soni'
   page = 5;
   state = {
